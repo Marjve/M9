@@ -197,6 +197,7 @@ main .line{
     border-radius: 10px;
     box-shadow: 0px 2px 13px 1px rgba(209, 209, 209, 0.31);
     max-width:637px;
+    padding-bottom: 15px;
 }
 .plants-care .plants-care-wrapper .box-card img{
     border-radius: 10px 10px 0px 0px;
