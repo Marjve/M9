@@ -81,23 +81,101 @@ main .home-board .home-board-text p{
     height: 50px;
     border: none;
     margin-right: 25px;
+    cursor: pointer;
+}
+.buy-btn:hover, .see-more-btn:hover{
+    background: rgba(2, 57, 22, 0.763);
 }
 main .social-icons{
     position: absolute;
     right: 100px;
     top:475px;
-    border: 1px solid red;
 }
 main .social-icons a{
     display: block;
     margin-bottom: 17px;
 }
 main .line{
-    display: block;
     position: absolute;
-    right:91px;
-    top:621px;
+    right:15px;
+    top:730px;
     width: 173px;
+    background: #000000;
     border: 1px solid #000000;
     transform: rotate(90deg);
+}
+.plant-today{
+    margin-top: 120px;
+}
+.plant-today h3{
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.plant-today .plant-today-box-wrapper section{
+    max-width:1257px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+.plant-today .plant-today-box-wrapper .box-card{
+    background-color: rgba(54, 121, 79, 0.55);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+}
+.plant-today .plant-today-box-wrapper .box-card img{
+    border-radius: 10px;
+    width: 100%;
+}
+.plant-today .plant-today-box-wrapper .text-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 10px 15px;
+    font-weight: 500;
+    font-size: 19px;
+    color: #FFFFFF;
+}
+.plant-today .plant-today-box-wrapper .text-area span:nth-child(2){
+    font-style: italic;
+}
+.plant-today .plant-today-box-wrapper .box-card .add-cart{
+    width: 368px;
+    height: 280px;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 99;
+    display: none;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+    border: 10px;
+}
+.plant-today .plant-today-box-wrapper .box-card .add-cart .add-cart-btn{
+    width: 216.5px;
+    height: 50.19px;    
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 0;
+    color: #0F6845;
+    font-weight: 500;
+    font-size: 19px;
+    cursor: pointer;
+}
+.plant-today .plant-today-box-wrapper .box-card:hover .add-cart{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.plant-today .plant-today-box-wrapper .box-card:hover{
+    background: #36794F;
 }
